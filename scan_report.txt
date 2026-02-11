@@ -1,0 +1,31 @@
+Network: 192.168.0.0/24
+Scan Time: 2026-02-11 12:38:03
+Live Hosts: 8
+
+Host: 192.168.0.1
+  - 22 → ssh
+  - 53 → domain
+  - 80 → http
+  - 1900 → upnp
+
+Host: 192.168.0.102
+  - 6000 → X11
+
+Host: 192.168.0.104
+  No open TCP ports found
+
+Host: 192.168.0.109
+  No open TCP ports found
+
+Host: 192.168.0.111
+  No open TCP ports found
+
+Host: 192.168.0.114
+  No open TCP ports found
+
+Host: 192.168.0.141
+  No open TCP ports found
+
+Host: 192.168.0.115
+  No open TCP ports found
+

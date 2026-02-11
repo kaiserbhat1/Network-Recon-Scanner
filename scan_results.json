@@ -1,0 +1,60 @@
+{
+    "network": "192.168.0.0/24",
+    "scan_time": "2026-02-11 12:38:03",
+    "live_hosts": [
+        {
+            "ip": "192.168.0.1",
+            "open_ports": [
+                {
+                    "port": 22,
+                    "service": "ssh"
+                },
+                {
+                    "port": 53,
+                    "service": "domain"
+                },
+                {
+                    "port": 80,
+                    "service": "http"
+                },
+                {
+                    "port": 1900,
+                    "service": "upnp"
+                }
+            ]
+        },
+        {
+            "ip": "192.168.0.102",
+            "open_ports": [
+                {
+                    "port": 6000,
+                    "service": "X11"
+                }
+            ]
+        },
+        {
+            "ip": "192.168.0.104",
+            "open_ports": []
+        },
+        {
+            "ip": "192.168.0.109",
+            "open_ports": []
+        },
+        {
+            "ip": "192.168.0.111",
+            "open_ports": []
+        },
+        {
+            "ip": "192.168.0.114",
+            "open_ports": []
+        },
+        {
+            "ip": "192.168.0.141",
+            "open_ports": []
+        },
+        {
+            "ip": "192.168.0.115",
+            "open_ports": []
+        }
+    ]
+}
