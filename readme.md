@@ -3,12 +3,12 @@
 A **structured, lightweight, and reproducible** Python-based network
 reconnaissance tool that:
 
--   Discovers live hosts on a subnet\
--   Performs fast port scanning on each live host\
--   Extracts only **open TCP ports**\
--   Stores results in **machine-readable JSON**\
--   Optionally produces a human-readable text report\
--   Validates user input before scanning\
+-   Discovers live hosts on a subnet
+-   Performs fast port scanning on each live host
+-   Extracts only **open TCP ports**
+-   Stores results in **machine-readable JSON**
+-   Optionally produces a human-readable text report
+-   Validates user input before scanning
 -   Handles unreachable or problematic hosts gracefully
 
 Designed for **authorized security learning and lab environments** on
@@ -172,8 +172,9 @@ Console screenshot inside a folder named:
     screenshots/
 
 
-
+> Screenshot 1
 ![Console Output](screenshots/scan_output0.png)
+> Screenshot 2
 ![Console Output](screenshots/scan_output1.png)
 
 > Console Scan Output.
