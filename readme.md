@@ -11,9 +11,7 @@ reconnaissance tool that:
 -   Validates user input before scanning
 -   Handles unreachable or problematic hosts gracefully
 
-Designed for **authorized security learning and lab environments** on
-Kali Linux.
-
+Designed for **authorized security learning and lab environments**
 ------------------------------------------------------------------------
 
 ## 🎯 Project Purpose
