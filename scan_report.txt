@@ -1,6 +1,6 @@
 Network: 192.168.0.0/24
-Scan Time: 2026-02-11 12:38:03
-Live Hosts: 8
+Scan Time: 2026-02-11 13:01:40
+Live Hosts: 9
 
 Host: 192.168.0.1
   - 22 → ssh
@@ -11,13 +11,16 @@ Host: 192.168.0.1
 Host: 192.168.0.102
   - 6000 → X11
 
-Host: 192.168.0.104
+Host: 192.168.0.103
+  No open TCP ports found
+
+Host: 192.168.0.105
+  No open TCP ports found
+
+Host: 192.168.0.107
   No open TCP ports found
 
 Host: 192.168.0.109
-  No open TCP ports found
-
-Host: 192.168.0.111
   No open TCP ports found
 
 Host: 192.168.0.114
