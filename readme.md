@@ -76,20 +76,20 @@ pip install python-nmap
 ## ⚙️ How the Tool Works (High-Level Flow)
 
 1.  **User provides a network range** (e.g., `192.168.0.0/24`) via
-    input\
+    input
 2.  **Input Validation Phase**:
     -   Uses the `re` (regular expressions) module to verify correct
-        CIDR format\
-    -   Checks valid IP ranges (0--255) and CIDR range (/0--/32)\
-    -   Re-prompts the user if input is invalid\
+        CIDR format
+    -   Checks valid IP ranges (0--255) and CIDR range (/0--/32)
+    -   Re-prompts the user if input is invalid
 3.  **Discovery Phase**:
-    -   Runs `nmap -sn` to find live hosts\
+    -   Runs `nmap -sn` to find live hosts
 4.  **Port Scan Phase**:
-    -   Scans each live host using fast flags (`-sS -F --min-rate 500`)\
+    -   Scans each live host using fast flags (`-sS -F --min-rate 500`)
 5.  **Result Processing**:
-    -   Extracts only **open TCP ports + service names**\
+    -   Extracts only **open TCP ports + service names**
 6.  **Output Storage**:
-    -   Saves structured results to `scan_results.json`\
+    -   Saves structured results to `scan_results.json`
     -   Saves readable summary to `scan_report.txt`
 
 ------------------------------------------------------------------------
